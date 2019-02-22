@@ -1,3 +1,5 @@
-def square_array(array)
-  # your code here
+def square_array(arr)
+new_arr = []
+arr.each {|i|new_arr << (i *i ) }
+new_arr
 end
